@@ -249,12 +249,9 @@ document.write(
 // 18. Count the number of occurrences of the word "the" in the given sentence.
 
 var str = "the quick brown fox jumps over the lazy dog";
-
-var count = (str.match(/the/g)).length;
-
-document.write("Text: " + str + "<br>");
-
-document.write(
-    "There are " + count + " occurrence(s) of the word 'the'"
-);
-```
+var words = str.toLowerCase().split("");
+var count = 0 ;
+for(i=0;i<words.length;i++){
+count++
+}
+console.log(`The appears ${count} time's in string`)

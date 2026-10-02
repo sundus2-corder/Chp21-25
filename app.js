@@ -256,6 +256,8 @@ count++
 }
 console.log(`The appears ${count} time's in string`);
 
+ -------------------------- Chapter 25-30String Methods ---------------------------
+
 /**
  * JAVASCRIPT MATH METHODS ASSIGNMENT (Questions 1-8)
  */
